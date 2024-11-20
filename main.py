@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score
 # Prepare data
 img2vec = Img2Vec()
 
-data_dir = './data/weather_dataset'
+data_dir = './data/intel_image_classification-dataset'
 train_dir = os.path.join(data_dir, 'train')
 val_dir = os.path.join(data_dir, 'val')
 
